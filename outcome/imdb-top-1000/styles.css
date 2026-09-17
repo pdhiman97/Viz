@@ -10,9 +10,9 @@
   --panel:     rgba(14, 14, 14, 0.90);
   --border:    #222222;
   --border-hi: rgba(255, 255, 255, 0.14);
-  --hi:        #EEEEEE;
-  --mid:       #888888;
-  --lo:        #444444;
+  --hi:        #F0F0F0;
+  --mid:       #AAAAAA;
+  --lo:        #666666;
   --accent:    #89C4DC;
   --font:      'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
 }
@@ -54,13 +54,13 @@ html, body {
   color: var(--hi);
 }
 .brand-sep {
-  color: #383838;
+  color: #555;
   margin: 0 7px;
 }
 .brand-sub {
   font-size: 9px;
   letter-spacing: 0.22em;
-  color: #555;
+  color: #999;
   font-weight: 500;
 }
 
@@ -77,7 +77,7 @@ html, body {
 .mode-btn {
   background: transparent;
   border: none;
-  color: #555;
+  color: #888;
   font-family: var(--font);
   font-size: 10px;
   font-weight: 500;
@@ -92,7 +92,7 @@ html, body {
   white-space: nowrap;
 }
 .mode-btn:hover {
-  color: #ccc;
+  color: #e0e0e0;
   background: rgba(255, 255, 255, 0.04);
 }
 .mode-btn.active {
@@ -126,7 +126,7 @@ html, body {
 }
 
 .search-icon {
-  color: #505050;
+  color: #777;
   font-size: 13px;
   margin-right: 7px;
   flex-shrink: 0;
@@ -143,14 +143,14 @@ html, body {
   width: 100%;
 }
 #omni-search::placeholder {
-  color: #444;
+  color: #666;
   letter-spacing: 0.06em;
 }
 
 #search-clear {
   background: transparent;
   border: none;
-  color: #666;
+  color: #888;
   font-size: 14px;
   cursor: pointer;
   display: none;
@@ -251,14 +251,14 @@ html, body {
 .axis-label {
   font-family: var(--font);
   font-size: 9px;
-  fill: #484848;
+  fill: #888888;
   letter-spacing: 0.12em;
 }
 .quadrant-label {
   font-family: var(--font);
   font-size: 11px;
   font-weight: 700;
-  fill: #3e3e3e;
+  fill: #777777;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -316,7 +316,7 @@ html, body {
 
 .tt-director {
   font-size: 11px;
-  color: #999;
+  color: #bbb;
   margin-bottom: 2px;
   white-space: nowrap;
   overflow: hidden;
@@ -325,7 +325,7 @@ html, body {
 
 .tt-meta {
   font-size: 10px;
-  color: #666;
+  color: #999;
   margin-bottom: 4px;
   letter-spacing: 0.04em;
 }
@@ -343,7 +343,7 @@ html, body {
 }
 .tt-meta-score {
   font-size: 10px;
-  color: #888;
+  color: #aaa;
   letter-spacing: 0.06em;
   background: rgba(255, 255, 255, 0.06);
   padding: 1px 4px;
@@ -352,7 +352,7 @@ html, body {
 
 .tt-genre {
   font-size: 9px;
-  color: #777;
+  color: #999;
   letter-spacing: 0.14em;
   margin-top: 3px;
 }
@@ -481,7 +481,7 @@ html, body {
 .filter-label {
   font-size: 9px;
   letter-spacing: 0.24em;
-  color: #666;
+  color: #999;
   font-weight: 700;
 }
 
@@ -491,12 +491,12 @@ html, body {
   font-family: var(--font);
   font-size: 8px;
   letter-spacing: 0.16em;
-  color: #444;
+  color: #777;
   cursor: pointer;
   padding: 2px 4px;
   transition: color 0.18s;
 }
-.flt-btn--clear:hover { color: #aaa; }
+.flt-btn--clear:hover { color: #ccc; }
 
 .filter-grid {
   display: grid;
@@ -507,7 +507,7 @@ html, body {
 .flt-btn {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.07);
-  color: #555;
+  color: #999;
   font-family: var(--font);
   font-size: 10px;
   font-weight: 400;
@@ -531,9 +531,9 @@ html, body {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--dc, #555);
+  background: var(--dc, #666);
   flex-shrink: 0;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: all 0.25s ease;
 }
 
@@ -542,11 +542,11 @@ html, body {
   justify-content: center;
   font-size: 9px;
   letter-spacing: 0.08em;
-  color: #666;
+  color: #999;
 }
 
 .flt-btn:hover {
-  color: #ddd;
+  color: #eee;
   border-color: var(--dc, rgba(255, 255, 255, 0.3));
   background: rgba(255, 255, 255, 0.04);
 }

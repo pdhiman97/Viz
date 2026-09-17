@@ -334,22 +334,22 @@
 
   labelG.append('text').attr('x', cx).attr('y', cy - innerR * 0.28)
     .attr('text-anchor', 'middle').attr('font-size', `${Math.max(18, fU * 1.85)}px`)
-    .attr('font-weight', '700').attr('font-family', CF).attr('fill', '#EEEEEE').attr('letter-spacing', '0.14em')
+    .attr('font-weight', '700').attr('font-family', CF).attr('fill', '#F0F0F0').attr('letter-spacing', '0.14em')
     .text('ONE RECORD');
 
   labelG.append('text').attr('x', cx).attr('y', cy - innerR * 0.08)
     .attr('text-anchor', 'middle').attr('font-size', `${Math.max(8, fU * 0.76)}px`)
-    .attr('font-family', CF).attr('fill', '#666666').attr('letter-spacing', '0.24em')
+    .attr('font-family', CF).attr('fill', '#999999').attr('letter-spacing', '0.24em')
     .text('A CENTURY OF CINEMA');
 
   const countEl = labelG.append('text').attr('x', cx).attr('y', cy + innerR * 0.24)
     .attr('text-anchor', 'middle').attr('font-size', `${Math.max(10, fU * 1.0)}px`)
-    .attr('font-weight', '600').attr('font-family', CF).attr('fill', '#888888').attr('letter-spacing', '0.18em')
+    .attr('font-weight', '600').attr('font-family', CF).attr('fill', '#AAAAAA').attr('letter-spacing', '0.18em')
     .text('1000 FILMS');
 
   labelG.append('text').attr('x', cx).attr('y', cy + innerR * 0.44)
     .attr('text-anchor', 'middle').attr('font-size', `${Math.max(7, fU * 0.62)}px`)
-    .attr('font-family', CF).attr('fill', '#444444').attr('letter-spacing', '0.18em')
+    .attr('font-family', CF).attr('fill', '#777777').attr('letter-spacing', '0.18em')
     .text('HOVER OR CLICK A DOT');
 
   // ── Timeline Wave Scenery ──
@@ -384,7 +384,7 @@
   timelineScenery.append('text')
     .attr('x', timePadX).attr('y', topBarH + timePadY - 24)
     .attr('font-family', CF).attr('font-size', '11px').attr('font-weight', '700')
-    .attr('fill', '#666').attr('letter-spacing', '0.14em')
+    .attr('fill', '#999').attr('letter-spacing', '0.14em')
     .text('CHRONOLOGICAL WAVE · 1920 → 2020 (RATING ON Y-AXIS)');
 
   // ── Critic vs Audience Galaxy Scenery ──
@@ -466,13 +466,13 @@
 
   svg.append('text').attr('x', 24).attr('y', H - 18)
     .attr('font-size', '10px').attr('font-family', CF2)
-    .attr('fill', '#333333').attr('letter-spacing', '0.14em')
+    .attr('fill', '#777777').attr('letter-spacing', '0.14em')
     .text('ONE RECORD · 1000 FILMS · 1920–2020 · IMDb TOP 1000');
 
   const decodeKeyText = svg.append('text').attr('x', 24).attr('y', H - 32)
     .attr('id', 'decode-key-text')
     .attr('font-size', '9px').attr('font-family', CF2)
-    .attr('fill', '#333333').attr('letter-spacing', '0.12em')
+    .attr('fill', '#777777').attr('letter-spacing', '0.12em')
     .text('SIZE = IMDb RATING (★ 7.6 → ★ 9.3) · COLOUR = DECADE · DISTANCE FROM CENTRE = RATING');
 
   /* ── 9. MODE SWITCHER LOGIC ─────────────────────────────────────────────── */
